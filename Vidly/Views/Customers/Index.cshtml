@@ -4,18 +4,31 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+<h1>Customers</h1>
 @if (!Model.Any())
 {
-    <p>No one has rented this movie before.</p>
+    <p>We don't have customers yet.</p>
 }
 else
 {
-    <ul>
-
-        @foreach (var customer in Model)
-        {
-            <li>@customer.Name</li>
-        }
-    </ul>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>
+                    Customer
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model)
+             {
+                <tr>
+                    <td>
+                    @Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id }, null)
+                    </td>
+                </tr>
+             }
+        </tbody>
+    </table>
 }
+
