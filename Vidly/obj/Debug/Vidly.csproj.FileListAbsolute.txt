@@ -111,11 +111,5 @@ C:\Projects\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
-C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToCustomer.resources
-C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
-C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
-C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
-C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
-C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateNameForMembershipType.resources
-C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddCustomerBirthday.resources
-C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.FixCustomerBirthDay.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipTypes.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenres.resources
