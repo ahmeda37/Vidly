@@ -8,7 +8,7 @@
     COMMENT ON RAZOR
 *@
 <h2>Movies</h2>
-
+<a class="btn btn-lg btn-block" href="/movies/new">Add New Movie</a>
 <table class="table table-striped">
     <thead>
         <tr>
@@ -25,7 +25,7 @@
         {
         <tr>
             <td>
-                @Html.ActionLink(movie.Name, "Details", "Movies", new { id = movie.Id }, null)
+                @Html.ActionLink(movie.Name, "Edit", "Movies", new { id = movie.Id }, null)
             </td>
             <td>
                 @movie.Genre.Name
