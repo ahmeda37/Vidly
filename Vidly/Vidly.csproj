@@ -200,6 +200,10 @@
     <Compile Include="Migrations\201905040416256_AddGenres.Designer.cs">
       <DependentUpon>201905040416256_AddGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905050223200_MakeMovieNameRequired.cs" />
+    <Compile Include="Migrations\201905050223200_MakeMovieNameRequired.Designer.cs">
+      <DependentUpon>201905050223200_MakeMovieNameRequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -305,6 +309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201905040416256_AddGenres.resx">
       <DependentUpon>201905040416256_AddGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905050223200_MakeMovieNameRequired.resx">
+      <DependentUpon>201905050223200_MakeMovieNameRequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
